@@ -10,7 +10,7 @@ const Hero = () => {
 
 const isMobile = useMediaQuery({maxWidth:853});
 
-console.log(isMobile);
+// console.log(isMobile);
 
 const text = `I am a full stack developer and  content creator.
 I provide unfair advantage through premium
@@ -28,7 +28,7 @@ results driven webs/apps`
        textColor={"text-black"}
       />
 
-      <figure className=' absolute inset-0 -z-50' style={{width:'100vw' , height:'100vh'}}>
+      {/* <figure className=' absolute inset-0 -z-50' style={{width:'100vw' , height:'100vh'}}>
 
          <Canvas
          
@@ -76,7 +76,7 @@ results driven webs/apps`
 
             </Environment>
          </Canvas>
-      </figure>
+      </figure> */}
 
     </section>
   )
